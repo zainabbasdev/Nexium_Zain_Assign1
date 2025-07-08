@@ -36,7 +36,7 @@ export default function QuoteCard({ quote, index }: QuoteCardProps) {
         <div className="flex-shrink-0 w-1 h-20 bg-gradient-to-b from-blue-500 to-purple-500 rounded-full"></div>
         <div className="flex-1 min-w-0">
           <blockquote className="text-gray-800 text-lg leading-relaxed mb-4 font-medium">
-            "{quote.text}"
+            &ldquo;{quote.text}&rdquo;
           </blockquote>
           <div className="flex items-center justify-between">
             <cite className="text-blue-600 font-semibold text-sm">

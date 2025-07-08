@@ -131,7 +131,7 @@ export default function QuoteForm() {
         <div className="space-y-6">
           <div className="flex items-center justify-between">
             <h3 className="text-2xl font-bold text-gray-800">
-              {topic ? `Results for "${topic}"` : "Random Quote"}
+              {topic ? `Results for &ldquo;${topic}&rdquo;` : "Random Quote"}
             </h3>
             <span className="text-sm text-gray-500 bg-gray-100 px-3 py-1 rounded-full">
               {quotes.length} quote{quotes.length !== 1 ? 's' : ''} found
@@ -149,7 +149,7 @@ export default function QuoteForm() {
         <div className="text-center py-12">
           <div className="text-6xl mb-4">🤔</div>
           <p className="text-lg text-gray-500 mb-2">
-            No quotes found for "{topic}"
+            No quotes found for &ldquo;{topic}&rdquo;
           </p>
           <p className="text-gray-400">
             {searchMode === "topic" 

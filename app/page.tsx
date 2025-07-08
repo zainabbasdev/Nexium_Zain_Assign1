@@ -17,7 +17,7 @@ export default function Home() {
         <footer className="mt-16 text-center text-gray-500 text-sm">
           <div className="max-w-4xl mx-auto p-6 bg-white/50 backdrop-blur-sm rounded-2xl border border-white/30">
             <p className="mb-2">
-              "The best quotes inspire us to be better versions of ourselves."
+              &ldquo;The best quotes inspire us to be better versions of ourselves.&rdquo;
             </p>
             <p className="text-xs">
               Made with ❤️ for quote enthusiasts everywhere
